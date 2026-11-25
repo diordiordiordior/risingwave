@@ -65,11 +65,11 @@
         <!-- dependency versions -->
         <protobuf.version>3.25.8</protobuf.version> <!-- https://github.com/grpc/grpc-java/issues/11015 -->
         <grpc.version>1.75.0</grpc.version>
-        <log4j.version>2.25.4</log4j.version>
+        <log4j.version>2.25.5</log4j.version>
         <slf4j.version>2.0.17</slf4j.version>
         <debezium.version>3.2.4.Final</debezium.version>
         <bouncycastle.version>1.84</bouncycastle.version>
-        <jackson.version>2.22.1</jackson.version>
+        <jackson.version>2.22.3</jackson.version>
         <hadoop.version>3.4.1</hadoop.version>
         <!-- Iceberg's HiveCatalog is compiled against Hive 2.3.x. -->
         <hive.version>2.3.10</hive.version>
@@ -180,7 +180,7 @@
             <dependency>
                 <groupId>org.postgresql</groupId>
                 <artifactId>postgresql</artifactId>
-                <version>42.7.12</version>
+                <version>42.7.15</version>
             </dependency>
             <dependency>
                 <groupId>com.mysql</groupId>
